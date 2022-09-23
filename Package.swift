@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "sdk-ios",
-            targets: ["sdk-ios"]),
+            targets: ["iZettleSDK", "iZettlePayments"]),
     ],
     dependencies: [],
     targets: [
